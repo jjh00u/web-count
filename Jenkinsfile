@@ -1,5 +1,6 @@
 node {
     stage('Clone repository') {
+        git branch: 'main',
         git credentialsId: 'github-access-token', url: 'https://github.com/jjh00u/web-count.git'
     }
 
