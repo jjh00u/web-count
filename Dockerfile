@@ -1,6 +1,6 @@
 FROM python:3.10-slim
 
-LABEL maintainer "kevin.lee"
+LABEL maintainer "jjh"
 
 RUN pip install --upgrade pip
 RUN mkdir -p /cloud-web/image
